@@ -12,7 +12,7 @@ RUN cd /app/tailscale/cmd/derper && \
     cd /app && \
     rm -rf /app/tailscale
 
-FROM ubuntu:20.04
+FROM debian:latest
 WORKDIR /app
 
 # ========= CONFIG =========
